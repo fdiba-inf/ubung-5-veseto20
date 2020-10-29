@@ -21,11 +21,11 @@ public class UniqueNumbers {
         
         for(int i=0;i<numbers.length;i++){
           for(int j=0; j < uniqueNumbers.length; j++){
-               if(uniqueNumbers[j]==0]){
+               if(uniqueNumbers[j]==0){
                  uniqueNumbers[j]=numbers[i];
                  break;
                }
-               else if(uniqueNumbers[j]==numbers[i]){
+               else (uniqueNumbers[j]==numbers[i]){
                  break;
                }
           }
