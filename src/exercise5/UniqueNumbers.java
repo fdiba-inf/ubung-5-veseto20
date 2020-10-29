@@ -25,7 +25,7 @@ public class UniqueNumbers {
                  uniqueNumbers[j]=numbers[i];
                  break;
                }
-               else (uniqueNumbers[j]==numbers[i]) {
+               else if (uniqueNumbers[j]==numbers[i]) {
                  break;
                }
           }
