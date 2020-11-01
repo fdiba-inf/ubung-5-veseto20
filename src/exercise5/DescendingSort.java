@@ -27,7 +27,7 @@ public class DescendingSort {
         }
         int temp=numbers[i];
         numbers[i]=numbers[max_index];
-        temp=numbers[max_index];
+        numbers[max_index]=temp;
         }
 
         String numbersAsString = Arrays.toString(numbers);
